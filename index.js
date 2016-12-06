@@ -1,8 +1,11 @@
 
 var events = require ("events");
 var net = require ("net");
-var raw = require ("./build/Release/raw");
 var util = require ("util");
+var path = require('path');
+
+var binary = require('node-pre-gyp');
+var raw = require(binary.find(path.resolve(__dirname, './package.json')));
 
 function _expandConstantObject (object) {
 	var keys = [];
