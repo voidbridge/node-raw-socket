@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/stephenwvickers/node-raw-socket.git"
+    "url": "git://github.com/voidbridge/node-raw-socket.git"
   },
   "keywords": [
     "checksum",
